@@ -5,6 +5,9 @@
     max-width: 1500px;
     margin: auto;
 }
+
+/*Header Start*/
+
 header{
     background-color: rgb(255, 220, 227);
 }
@@ -22,7 +25,7 @@ header{
     font-weight: bold;
 }
 .head-content{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .head-title{
     font-size: 35px;
@@ -32,12 +35,16 @@ header{
     font-size: 18px ;
     width: 400px;
 }
+
+
+/*Feature Start*/
+
 .featured{
     margin: auto;
     text-align: center;
 }
 .featured-text{
-   margin: 70px 0px 50px 0px; 
+   margin: 100px 0px 50px 0px; 
 }
 .featured-img{
     display: flex;
@@ -86,6 +93,9 @@ ul li{
     padding: 3px 0px;
     justify-content: center;
 }
+
+/*delivery icon Start*/
+
 .delivery{
     margin: auto;
     max-width: 1180px;
@@ -98,6 +108,9 @@ ul li{
     padding: 50px 20px 20px 20px;
     border-radius: 5px;
 }
+
+/*Hot deal Start*/
+
 #hot-deal-content{
     text-align: center;
 }
@@ -105,6 +118,9 @@ ul li{
     background-color: #E554730D;
     margin-top: 80px;
 }
+
+/*Instagram Start*/
+
 .insta-img{
     display: flex;
     justify-content: center;
@@ -114,5 +130,75 @@ ul li{
     padding: 10px;
     width: 293px;
     height: 396px;
-    flex-shrink: 0;    
+    flex-shrink: 0;
+    margin-bottom: 80px; 
+}
+
+/*Subscribe Start*/
+
+.subscribe{
+    background-image: url('../flower_asset/Rectangle\ 9.png');
+    text-align: center;
+    padding: 80px 0px 150px 0px;
+    max-width: 1235px;
+    margin: auto;
+}
+#email{
+    border: none;
+    width: 400px;
+    height: 18px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 10px;
+}
+
+/*Footer Start*/
+
+footer{
+    background-color: #111010;
+    text-align: center;
+    color: #9e9e9e;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    margin-top: 80px;
+}
+footer p{
+    width: 60%;
+    margin:20px auto;
+}
+
+/*Bonus*/
+
+#for-bonus{
+    background-color: #ebf1ff;
+    margin: 0px 0px 100px 0px;
+}
+.bonus-heading{
+    text-align: center;
+    padding: 50px 0px 0px;
+}
+.flowers{
+    justify-content: center;
+    padding: 0px 10px 50px 10px;
+    display: flex;
+}
+.flower{
+    justify-content: center;
+    height: 400px;
+    width: 280px;
+    background-color: #e8fff2;
+    margin: 20px;
+    border-radius: 10px;
+    line-height: 370px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    transition: all;
+}
+.flower:hover{
+    background-image: url(../flower_asset/Rectangle\ 6.png);
+    font-size:0px ;
+    transition: 1s;
 }
